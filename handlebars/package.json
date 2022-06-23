@@ -1,0 +1,23 @@
+{
+    "name": "desafio5",
+    "version": "1.0.0",
+    "description": "Version del desafio usando handlebars",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon ./src/server.js",
+      "dev": "start http://localhost:8080 && nodemon ./src/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.1",
+      "express-handlebars": "^6.0.6"
+    },
+    "devDependencies": {
+      "morgan": "^1.10.0",
+      "nodemon": "^2.0.16"
+    }
+  }
